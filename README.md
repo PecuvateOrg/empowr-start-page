@@ -1,5 +1,16 @@
 # Empowr Landing Page
 
+## About
+
+### What it is
+Empowr CIC's link-in-bio page, at start.empowrcic.org, used on its social profiles.
+
+### What it's for
+One tap from a social profile to whatever someone came for: sessions, the shop, donating, or volunteering.
+
+### How it works
+A single, fast, mobile-first page of links to each Empowr destination.
+
 Single-page **link-in-bio hub** for Empowr CIC — routes visitors to roller skating programmes, the shop, donations, and volunteering. Mobile-first, designed at 480px.
 
 Built with Astro + Tailwind CSS v4. Deployed on Netlify.
