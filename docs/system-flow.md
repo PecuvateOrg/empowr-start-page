@@ -48,7 +48,7 @@ Primary navigation links and the children's programme entry point.
 | Button | Variant | Destination |
 |---|---|---|
 | 🏠 Empowr Home | dark | `https://www.empowrcic.org` |
-| 🛒 Empowr Shop | pale | `https://empowrcic.wixsite.com/empowrcic/shop` |
+| 🛒 Empowr Shop | pale | `https://shop.empowrcic.org` |
 | 💬 WhatsApp Notification | green | WhatsApp group invite link |
 
 **Kids Space card:**
@@ -168,7 +168,7 @@ Are you booking for a child aged 5–15?
 |---|---|---|
 | Hero | Quiz CTA | `/quiz` (internal) |
 | Quick Links | Empowr Home | `https://www.empowrcic.org` |
-| Quick Links | Empowr Shop | `https://empowrcic.wixsite.com/empowrcic/shop` |
+| Quick Links | Empowr Shop | `https://shop.empowrcic.org` |
 | Quick Links | WhatsApp | WhatsApp group invite |
 | Kids | Kidz Space link | `https://eela.empowrcic.org/kids-space` |
 | Adults | Find Your Session | `https://eela.empowrcic.org/adults` |
