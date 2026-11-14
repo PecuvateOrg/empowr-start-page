@@ -34,5 +34,5 @@ Single page of links, checked at 480px. `design/CONTEXT.md` is the editing proce
 
 ## Open questions
 
-- [ ] Replace `#4A6FD4` with the brand `--blue`.
+- [x] `#4A6FD4` → brand blue `#4A70C2` (2026-11-14).
 - [ ] Inter is loaded alongside Nunito: drop it (one font, Nunito).
