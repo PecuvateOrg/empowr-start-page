@@ -25,3 +25,7 @@ Handles all Astro component markup, Tailwind styling, brand token adjustments, a
 - Brand tokens live in `src/styles/globals.css` under `@theme` — all custom colours registered there
 - Max viewport width is 480px (`max-w-[480px]` on body) — all layout decisions must be mobile-first
 - `landing.page.guide.html` is the original design reference — do not edit it
+
+## Design record
+
+The design decisions for this page live in `design-system/MASTER.md` (on top of the Empowr brand kit). This folder is the editing process only.

@@ -18,6 +18,7 @@ detail lives in each CONTEXT.md.
 
 | Task | Go to | Read | Skills |
 |---|---|---|---|
+| **Design: look, colours, components** | `design-system/` | `design-system/MASTER.md` (then the Empowr brand kit it names) | — |
 | HTML/CSS edits, layout, copy, brand tokens | design/ | design/CONTEXT.md | webapp-testing |
 | Image assets, URL wiring, deployment | publish/ | publish/CONTEXT.md | webapp-testing |
 
