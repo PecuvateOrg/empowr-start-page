@@ -22,11 +22,14 @@ Single page of links, checked at 480px. `design/CONTEXT.md` is the editing proce
 ## Current state vs the brand kit
 
 - **Off-brand blue** `#4A6FD4` (brand is `#4A70C2`).
-- Nunito plus Inter; some extra greys (`#545454`, `#657b83`).
+- Nunito ✅; some extra greys (`#545454`, `#657b83`).
 
 ---
 
 ## Decision log
+
+### 2026-11-14 — Correction
+- The first pass said Inter was loaded as a second font here. It is not (the scan matched words like "Internal"); only the CRM loads Inter.
 
 ### 2026-11-14 — Recorded
 - First design record, from the group-wide design records pass. No code changed; gaps below
@@ -35,4 +38,3 @@ Single page of links, checked at 480px. `design/CONTEXT.md` is the editing proce
 ## Open questions
 
 - [x] `#4A6FD4` → brand blue `#4A70C2` (2026-11-14).
-- [ ] Inter is loaded alongside Nunito: drop it (one font, Nunito).
