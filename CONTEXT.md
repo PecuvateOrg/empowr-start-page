@@ -1,9 +1,5 @@
 # Empowr Landing Page — Context
 
-Read this after `CLAUDE.md` to orient within the project.
-
----
-
 ## What This Is
 
 Single-page Astro link-in-bio hub for Empowr CIC. Routes visitors to roller skating programmes, shop, donations, and volunteering. Deployed at `start.empowrcic.org`.
