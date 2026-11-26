@@ -1,7 +1,5 @@
 # CLAUDE.md
 
-> Workspace rules: this project sits inside `~/projects`. Before working, read `~/projects/NON-NEGOTIABLES.md` and the hub's `NON-NEGOTIABLES.md` if there is one. Tools that stop at the repository root (Antigravity) won't load them by themselves.
-
 > **This repository is PUBLIC** (`PecuvateOrg/empowr-start-page`).
 >
 > **Devlog and memory location:** `../workspace-docs/empowr-start-page/`
@@ -9,12 +7,9 @@
 > `DEVLOG.md` and `memory.md` are not kept in this repo — write session entries to the path
 > above instead. See `NON-NEGOTIABLES.md` for what must never be committed here.
 
-## Identity
-Empowr CIC landing page — a single-file static HTML link-in-bio hub (480px mobile-first) routing visitors to roller skating programmes, shop, donations, and volunteering.
+@NON-NEGOTIABLES.md
 
-## Self-Reference
-This file (`AGENTS.md`, imported by `CLAUDE.md`) is Layer 0 — routing only. Read `NON-NEGOTIABLES.md` before doing anything; project
-detail lives in each CONTEXT.md.
+Other tools: read `NON-NEGOTIABLES.md` first, then `~/projects/NON-NEGOTIABLES.md`.
 
 ## Routing
 
@@ -23,16 +18,6 @@ detail lives in each CONTEXT.md.
 | **Design: look, colours, components** | `design-system/` | `design-system/MASTER.md` (then the Empowr brand kit it names) | — |
 | HTML/CSS edits, layout, copy, brand tokens | design/ | design/CONTEXT.md | webapp-testing |
 | Image assets, URL wiring, deployment | publish/ | publish/CONTEXT.md | webapp-testing |
-
-## Shared Memory
-
-Adopts `Frameworks/MWP Framework/spec/session-memory.md` (2026-10-09). This repo is public, so
-all of these live in the **private** hub at `../workspace-docs/empowr-start-page/`, never here:
-
-- Session bridge (read at start, rewrite in place at close, ≤1,000 words): `memory.md`
-- Decisions: `decisions.md`
-- Traps and "do not" rules — read before touching the area: `gotchas.md`
-- Session history: `DEVLOG.md`; pre-bridge memory, search only: `archive/memory-history-to-2026-10-09.md`
 
 ## Cross-Workspace Flows
 
@@ -43,24 +28,8 @@ all of these live in the **private** hub at `../workspace-docs/empowr-start-page
 - HTML source → project root
 - Image assets → assets/ (when created)
 
-## Token Management
-
-- Do not read `landing.page.guide.html` in full unless editing markup — read only the relevant section
-- Do not load publish/CONTEXT.md unless the task involves images, URLs, or deployment
-- Do not load design/CONTEXT.md unless the task involves HTML, CSS, or copy
-
 ## Deployment
 
 - Platform: Netlify
 - Domain: start.empowrcic.org
 - Branch: master
-
-## Skills and Tools Available
-
-| Tool / Skill | Trigger | Purpose |
-|---|---|---|
-| `/netlify-deploy` | deploying to Netlify | Deploy to Netlify and configure `start.empowrcic.org` |
-| `/pre-build-check` | before any deploy | Validate Astro build structure and frontend quality |
-| `/pre-deploy-security` | before any deploy | Security hygiene scan — FAILs block the deploy |
-| `/webapp-testing` | after any change | Playwright browser preview and screenshot capture at 480px |
-| `/simplify` | after a feature is built | Review changed code for reuse, quality, and efficiency |
