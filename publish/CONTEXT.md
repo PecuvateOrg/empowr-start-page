@@ -7,7 +7,7 @@ Handles image asset replacement, URL wiring, and deployment of the landing page 
 1. Replace each `<div class="image-placeholder">` with an `<img>` using `object-fit: cover` inside the existing wrapper
 2. Wire all `href="#"` links to confirmed live URLs (see Constraints for known targets)
 3. QA at 480px on mobile and desktop using webapp-testing
-4. Deploy via Netlify — see `f:\Projects\_config\guides\deployment.md`
+4. Deploy via Netlify — see `f:/Projects/_config/guides/deployment.md`
 
 ## Inputs and Outputs
 
